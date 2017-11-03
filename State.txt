@@ -1,0 +1,14 @@
+[Table("State21")]
+        public class State21
+        {
+            [Key]
+            public int StateId { get; set; }
+
+
+            [ForeignKey("Country21")]
+            public int CountryId { get; set; }
+            public virtual Country21 Country21 { get; set; }
+
+
+            public string StateName { get; set; }
+        }

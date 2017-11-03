@@ -1,0 +1,9 @@
+ [Table("Country21")]
+    public class Country21
+    { 
+            [Key]
+            public int CountryId { get; set; }
+
+            public string CountryName { get; set; }
+        
+    }
